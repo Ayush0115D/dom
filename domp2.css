@@ -1,6 +1,10 @@
-#box{
+
+body{
+    background-color: grey;
+}
+    #box{
     height: 200px;
     width: 100px;
-    background-color: burlywood;
+    background-color: rgb(217, 219, 178);
     border: 1px solid black;
 }
