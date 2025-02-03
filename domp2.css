@@ -4,7 +4,7 @@ body{
 }
     #box{
     height: 200px;
-    width: 100px;
+    width: 200px;
     background-color: rgb(217, 219, 178);
     border: 1px solid black;
 }
