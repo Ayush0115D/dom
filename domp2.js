@@ -21,7 +21,7 @@ console.log(newBtn);
 p.after(newBtn);
 
 let newHeading =document.createElement("h1");
-newHeading.innerHTML=" <i> hi, i am new</i>";
+newHeading.innerHTML=" <i> hi, i am new learner</i>";
 document.querySelector("body").prepend(newHeading);
 let para=document.querySelector("p");
 para.remove();
