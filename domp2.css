@@ -8,3 +8,9 @@ body{
     background-color: rgb(217, 219, 178);
     border: 1px solid black;
 }
+.content{
+    color:red;
+}
+.newClass{
+    background-color: green;
+}
