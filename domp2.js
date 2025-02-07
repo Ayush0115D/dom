@@ -11,6 +11,7 @@
 // div.style.fontSize="25px";
 // div.innerText="helloo";
 // div.style.visibility="hidden";
+//ABOVE ARE ATTRIBUTES FOR HTML AND FOR STYLING
 let newBtn=document.createElement("button");
 newBtn.innerText="click me!";
 console.log(newBtn);
@@ -19,10 +20,10 @@ console.log(newBtn);
 // div.before(newBtn);
  let p=document.querySelector("p");
 p.after(newBtn);
-
+// INSERTION AND DELETION OF ELEMENTS
 let newHeading =document.createElement("h1");
 newHeading.innerHTML=" <i> hi, i am new learner</i>";
 document.querySelector("body").prepend(newHeading);
 let para=document.querySelector("p");
-para.remove();
+para.remove(); // for removing para
 
