@@ -26,4 +26,13 @@ newHeading.innerHTML=" <i> hi, i am new learner</i>";
 document.querySelector("body").prepend(newHeading);
 let para=document.querySelector("p");
 para.remove(); // for removing para
-
+//P.Qs
+let newbtn1=document.createElement("button");
+newbtn1.innerText="Alert!";
+newbtn1.style.color="white";
+newbtn1.style.backgroundColor="red";
+document.querySelector("body").prepend(newbtn1);
+//Q.2
+let paraa=document.querySelector("p")
+//set attribute se newclass bnaye..2styling krne ke liye classlist ka use krege...para.classList
+// paraa.classList.add("class","newClass");
