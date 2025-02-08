@@ -28,7 +28,7 @@ const handler3=()=>{
 btn1.addEventListener("click",handler3)
 btn1.addEventListener("click",()=>{
     console.log("button1 was clicked handler4"); 
-});// it can do multiple work on same event
+});// it can do multiple work/task on same event
 
 btn1.removeEventListener("click",handler3);
 let div= document.querySelector("div");
